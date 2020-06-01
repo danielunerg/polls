@@ -1,14 +1,14 @@
 # Markdown Practice 
 - [Summary](#Summary)
 - [Block_Elements](#Block_Elements)
-    * [Headings](#Headings)
-    * [Blockquotes](#Blockquotes)
-    * [List](#List)
+ * [Headings](#Headings)
+ * [Blockquotes](#Blockquotes)
+ * [List](#List)
 - [Inline_Elements](#Inline_Elements)
 - Code 
-    * [C#]( #Csharp)
-    * [HTML](#HTML)
-    * [SQL](#SQL)
+ * [C#](#Csharp)
+ * [HTML](#HTML)
+ * [SQL](#SQL)
 ![Cualquier parecido es pura conincidencia](https://statics-cuidateplus.marca.com/sites/default/files/styles/natural/public/enfermedad-alopecia-hombre-cabello_0.jpg?itok=c6KkDKSg)  
 
 ## Summary
@@ -48,22 +48,20 @@ incorporar códigos, entre otros.
       <br>Utiliza ***cursiva y negrita juntas*** si lo ___necesitas___.
 ## Code
 * ### Csharp
-
-      ```csharp
-        using System;
-
-        namespace LosTongePanas
-        {
-            public class Hair
-            {
-                private bool _hair;
-                public static Hair(bool hair)
-                {
-                    _hair = hair;
-                }
-            }
-        }
-      ```
+```csharp
+  using System;
+  namespace LosTongePanas
+  {
+      public class Hair
+      {
+          private bool _hair;
+          public static Hair(bool hair)
+          {
+              _hair = hair;
+          }
+      }
+  }
+```
 * ### HTML
      *Esto está en cursiva*, y _esto_ también.  
       <br>Utiliza ***cursiva y negrita juntas*** si lo ___necesitas___.
